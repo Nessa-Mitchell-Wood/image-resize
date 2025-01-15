@@ -1,14 +1,17 @@
 {
   "name": "image-resize",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tsx --watch ./src/index.ts"
+  },
+  "repository": {
+    "url": "https://github.com/Nessa-Mitchell-Wood/image-resize.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nessa Mitchell-Wood",
   "license": "ISC",
-  "description": "",
+  "description": "resize and change format in downloads directory",
   "dependencies": {
     "@types/node": "^22.10.6",
     "sharp": "^0.33.5"
